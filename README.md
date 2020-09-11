@@ -19,4 +19,5 @@ python main.py -s 500 -t 2
 Script capture frames and saves them in __*img*__ folder in main directory.
 
 Output result:
-![Sample](/output/sample.gif)
+
+ ![Sample](/output/sample.gif)
