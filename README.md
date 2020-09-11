@@ -9,7 +9,7 @@ mss (ver 5.1 was used originally)
 - [ ] Ensure multiplatform support
 - [ ] Add shortkeys support
 
-## Uses
+## Use
 Script was written with `argparse` library, so you can always type `python main.py -h` for help with arguments. In default mode screen capture is set to record square part of the screen **400x400** for **10 seconds**. To set record mode for *2 seconds* with *500x500* resolution use:
 
 ```console
@@ -17,3 +17,6 @@ python main.py -s 500 -t 2
 ```
 
 Script capture frames and saves them in __*img*__ folder in main directory.
+
+Output result:
+![Sample](/output/sample.gif)
