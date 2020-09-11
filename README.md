@@ -1,10 +1,11 @@
 # Screen recorder
-This script captures area around mouse cursor using mss library and saves captured frames ads images. Code is able to capture smooth framerate on desktop and fullscreen applications. Right now it is only tested on Windows. 
+This script captures area around mouse cursor using mss library and saves captured frames as images. Code is able to capture smooth framerate on desktop and fullscreen applications. Right now it is only tested on Windows. 
 
 ## Requirements
 mss (ver 5.1 was used originally)
+
 ## To do
-- [ ] Add script to render gifs and movies from image frames
+- [ ] Add script to render gifs or movies from set of image frames
 - [ ] Ensure multiplatform support
 - [ ] Add shortkeys support
 
@@ -14,3 +15,5 @@ Script was written with `argparse` library, so you can always type `python main.
 ```console
 python main.py -s 500 -t 2
 ```
+
+Script capture frames and saves them in __*img*__ folder in main directory.
