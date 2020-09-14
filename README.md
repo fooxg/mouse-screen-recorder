@@ -27,4 +27,8 @@ Output result rendered in GIMP:
 
 Current approach of rendering gifs with pillow library is not perfect. It is fast indeed, but makes artifacts on image and produce bigger files than gifs rendered with GIMP. GIF rendered with pillow can be seen below:
 
- ![Sample](/output/sample_pil.gif)
+<details>
+  <summary>GIF [10 MB]</summary>
+   ![Sample](/output/sample_pil.gif)
+</details>
+
