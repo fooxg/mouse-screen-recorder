@@ -29,6 +29,7 @@ Current approach of rendering gifs with pillow library is not perfect. It is fas
 
 <details>
   <summary>GIF [10 MB]</summary>
+ 
    ![Sample](/output/sample_pil.gif)
 </details>
 
