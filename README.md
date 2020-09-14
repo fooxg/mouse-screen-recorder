@@ -5,7 +5,8 @@ This script captures area around mouse cursor using mss library and saves captur
 mss (ver 5.1 was used originally)
 
 ## To do
-- [ ] Add script to render gifs or movies from set of image frames
+- [x] Add script to render gifs or movies from set of image frames
+- [ ] Improve gif optimization
 - [ ] Ensure multiplatform support
 - [ ] Add shortkeys support
 
@@ -16,8 +17,14 @@ Script was written with `argparse` library, so you can always type `python main.
 python main.py -s 500 -t 2
 ```
 
-Script capture frames and saves them in __*img*__ folder in main directory.
+Script capture frames and saves them in __*img*__ folder in main directory. To additionally create a gif from images add flag `-m True`
 
-Output result:
+Output result rendered in GIMP:
 
  ![Sample](/output/sample.gif)
+
+## Gif note
+
+Current approach of rendering gifs with pillow library is not perfect. It is fast indeed, but makes artifacts on image and produce bigger files than gifs rendered with GIMP. GIF rendered with pillow can be seen below:
+
+ ![Sample](/output/sample_pil.gif)
