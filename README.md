@@ -10,6 +10,8 @@ mss (ver 5.1 was used originally)
 - [ ] Ensure multiplatform support
 - [ ] Add shortkeys support
 
+Probably due to excellent quality and size of created gifs using gimp library in python is a way to go, so this will be object of focus for next update.
+
 ## Use
 Script was written with `argparse` library, so you can always type `python main.py -h` for help with arguments. In default mode screen capture is set to record square part of the screen **400x400** for **10 seconds**. To set record mode for *2 seconds* with *500x500* resolution use:
 
